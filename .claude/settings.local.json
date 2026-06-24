@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew --version)",
+      "Bash(pyenv versions *)",
+      "Bash(perl -0pi -e 's/\\(\\\\w+\\): str \\\\| None/$1: Optional[str]/g' models/schemas.py)",
+      "Bash(kill 2048)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(lsof -ti:8501)",
+      "Bash(xargs kill -9)",
+      "Bash(lsof -ti:8502)",
+      "mcp__visualize__read_me"
+    ]
+  }
+}

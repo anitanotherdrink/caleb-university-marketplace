@@ -1,0 +1,14 @@
+[server]
+maxUploadSize = 5
+enableCORS = true
+enableXsrfProtection = true
+
+[theme]
+base = "light"
+primaryColor = "#4f46e5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f5fb"
+textColor = "#1f2430"
+linkColor = "#4f46e5"
+font = "sans serif"
+baseRadius = "0.75rem"
